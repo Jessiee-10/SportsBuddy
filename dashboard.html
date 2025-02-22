@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Buddy - Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to Sports Buddy</h1>
+    
+
+    <div id="event-form">
+        <h2>Add Sports Event</h2>
+        <input type="text" id="event-name" placeholder="Event Name" required>
+        <input type="text" id="event-location" placeholder="Location" required>
+        <input type="datetime-local" id="event-time" required>
+        <button id="add-event-btn">Add Event</button>
+    </div>
+
+    <div id="events-list">
+        <h2>Upcoming Events</h2>
+        <ul id="event-list"></ul>
+    </div>
+
+    <script type="module" src="firebase-config.js"></script>
+    <script type="module" src="events.js"></script>
+</body>
+</html>
