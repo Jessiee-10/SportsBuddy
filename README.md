@@ -10,8 +10,6 @@ Sports Buddy is a web application designed to help users find sports events and 
 - **Firebase Firestore** - Stores user and event data.
 - **GitHub Pages** - Used for deployment.
 
-## Project Structure
-
 
 ## Deployment  
 
